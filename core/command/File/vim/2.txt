@@ -1,0 +1,6 @@
+vim example.txt(在Vim中打开文件)
+vim -o example1.txt example2.txt(在水平分割窗口中打开多个文件)
+vim -O example1.txt example2.txt(在垂直分割窗口中打开多个文件)
+vim -r example.txt(恢复崩溃的文件)
+vim -R example.txt(以只读模式打开文件)
+    

@@ -1,0 +1,7 @@
+chmod 755 example.txt(赋予所有者读写执行权限，组和其他用户读执行权限)
+chmod +x example.txt(添加可执行权限)
+chmod u+rwx example.txt(给所有者添加所有权限)
+chmod go-rw example.txt(移除组和其他用户的读写权限)
+chmod 644 example.txt(标准文件权限设置)
+
+    

@@ -1,0 +1,6 @@
+lsusb(列出所有USB设备)
+lsusb -v(显示USB设备详细信息)
+lsusb -t(以树状结构显示USB设备)
+lsusb -d 046d:c05a(显示指定ID的USB设备)
+lsusb -s 001:002(显示指定总线和设备号的USB设备)
+    

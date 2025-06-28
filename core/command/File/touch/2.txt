@@ -1,0 +1,3 @@
+touch file.txt(创建空文件)
+touch -d "2023-01-01" file.txt(修改文件时间戳)
+    

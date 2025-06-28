@@ -1,0 +1,6 @@
+pip install package(安装包)
+pip uninstall package(卸载包)
+pip list(列出已安装包)
+pip install --upgrade package(升级包)
+pip install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple
+    

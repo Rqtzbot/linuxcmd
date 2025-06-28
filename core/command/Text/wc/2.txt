@@ -1,0 +1,5 @@
+wc file.txt(统计文件的行数、单词数和字节数)
+wc -l file.txt(统计文件行数)
+wc -w file.txt(统计文件单词数)
+wc -c file.txt(统计文件字节数)
+ls -1 | wc -l(统计当前目录下的文件数量)

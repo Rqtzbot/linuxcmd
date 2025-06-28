@@ -1,0 +1,4 @@
+gzip file(压缩文件)
+gzip -d file.gz(解压缩文件)
+gzip -k file(压缩并保留原文件)
+    

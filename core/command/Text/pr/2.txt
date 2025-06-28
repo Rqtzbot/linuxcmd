@@ -1,0 +1,4 @@
+pr file.txt(格式化文件以便打印)
+pr -n file.txt(显示带行号的文件)
+pr -w 80 -3 file.txt(设置页面宽度为80，分3列显示)
+    

@@ -1,0 +1,5 @@
+mkdir dir(创建目录)
+mkdir -p dir/subdir(递归创建目录)
+mkdir -v newdir(显示创建信息)
+mkdir -m 700 secure_dir(创建带权限的目录)
+mkdir -p dir_{0..5}(创建序列目录)

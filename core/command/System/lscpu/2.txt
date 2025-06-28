@@ -1,0 +1,3 @@
+lscpu(显示CPU信息)
+lscpu -p(显示CPU拓扑结构)
+    

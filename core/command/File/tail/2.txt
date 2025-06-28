@@ -1,0 +1,4 @@
+tail file.txt(显示文件最后10行)
+tail -n 20 file.txt(显示最后20行)
+tail -f log.txt(实时跟踪文件更新)
+    

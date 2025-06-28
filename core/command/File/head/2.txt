@@ -1,0 +1,4 @@
+head example.txt(显示文件前10行)
+head -n 5 example.txt(显示文件前5行)
+head -c 200 example.txt(显示文件前200个字符)
+    

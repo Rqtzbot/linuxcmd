@@ -1,0 +1,6 @@
+scp local_file user@remote:/path(上传文件到远程主机)
+scp user@remote:/path/local_file(下载远程文件)
+scp -r local_dir user@remote:/path(上传目录到远程主机)
+scp -P 2222 user@remote:/path/file(指定端口下载文件)
+scp user1@host1:/file1 user2@host2:/file2(远程主机间直接复制)
+    

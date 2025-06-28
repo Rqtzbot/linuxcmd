@@ -1,0 +1,6 @@
+tar -cvf archive.tar files(创建tar包)
+tar -xvf archive.tar(解压tar包)
+tar -czvf archive.tar.gz files(创建gzip压缩包)
+tar -xzvf archive.tar.gz(解压gzip包)
+tar -xjvf archive.tar.bz2(解压bzip2包)
+    

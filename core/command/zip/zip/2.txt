@@ -1,0 +1,4 @@
+zip archive.zip files(压缩文件)
+zip -r archive.zip directory(递归压缩目录)
+zip -m archive.zip files(压缩后删除原文件)
+    

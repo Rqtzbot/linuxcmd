@@ -1,0 +1,6 @@
+readelf -h example(显示ELF文件头，包含文件架构)
+readelf -l example(显示程序头)
+readelf -S example(显示节头)
+readelf -s example(显示符号表)
+readelf -d example(显示动态链接信息)
+    

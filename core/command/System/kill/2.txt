@@ -1,0 +1,4 @@
+kill PID(终止进程)
+kill -9 PID(强制终止进程)
+kill -l(列出所有信号)
+    

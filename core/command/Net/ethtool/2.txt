@@ -1,0 +1,6 @@
+ethtool eth0(显示网卡状态)
+ethtool -i eth0(显示网卡驱动信息)
+ethtool -S eth0(显示网卡统计信息)
+ethtool -g eth0(显示网卡队列参数)
+ethtool -s eth0 speed 1000 duplex full(设置网卡为1000Mbps全双工)
+    

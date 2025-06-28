@@ -1,0 +1,4 @@
+ldd example(显示程序依赖的共享库)
+ldd -v example(显示详细依赖信息)
+ldd -u example(显示未使用的依赖)
+    

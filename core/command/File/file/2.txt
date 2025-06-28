@@ -1,0 +1,5 @@
+file example.txt(确定文件类型)
+file -i example.txt(显示MIME类型)
+file -L link_to_file(跟随链接确定目标类型)
+file -z compressed.gz(探测压缩文件内容)
+    

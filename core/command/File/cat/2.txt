@@ -1,0 +1,9 @@
+cat example.txt(显示文件内容)
+cat file1.txt file2.txt(连接并显示多个文件)
+cat > example.txt(创建新文件)
+cat example.txt > new.txt(覆盖复制文件)
+cat example.txt >> existing.txt(追加到已有文件)
+cat -n example.txt(显示文件并编号)
+cat -s example.txt(压缩连续空行)
+cat /dev/null > example.txt(清空文件内容)
+    

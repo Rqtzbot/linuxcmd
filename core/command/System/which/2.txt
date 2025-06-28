@@ -1,0 +1,3 @@
+which command(查找命令路径)
+which -a command(显示所有匹配路径)
+    

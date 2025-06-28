@@ -1,0 +1,6 @@
+traceroute example.com      (跟踪到主机的路由)
+traceroute -n example.com   (不解析主机名)
+traceroute -I example.com   (使用ICMP协议)
+traceroute -T example.com   (使用TCP协议)
+traceroute -p 80 example.com(指定目标端口为80)
+    

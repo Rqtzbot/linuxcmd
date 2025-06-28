@@ -1,0 +1,7 @@
+apt update(更新包索引)
+apt upgrade(升级已安装包)
+apt install package(安装包)
+apt remove package(移除包)
+apt purge package(彻底移除包)
+
+    

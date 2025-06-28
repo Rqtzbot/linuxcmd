@@ -1,0 +1,5 @@
+awk '{print $1}' file.txt(打印每行第一个字段)
+awk -F: '{print $1}' /etc/passwd(以:为分隔符，打印第一个字段)
+awk '$3 > 100 {print}' file.txt(打印第三个字段大于100的行)
+awk '{sum+=$1} END {print sum}' file.txt(计算第一列的总和)
+    

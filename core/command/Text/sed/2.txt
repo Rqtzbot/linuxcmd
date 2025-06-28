@@ -1,0 +1,6 @@
+sed 's/old/new/' file.txt(替换每行第一个匹配)
+sed 's/old/new/g' file.txt(替换每行所有匹配)
+sed -i 's/old/new/g' file.txt(直接修改文件)
+sed '1,5d' file.txt(删除第1到5行)
+sed '/pattern/d' file.txt(删除包含pattern的行)
+    

@@ -1,0 +1,5 @@
+route -n(显示路由表，不解析名称)
+route add -net 192.168.1.0 netmask 255.255.255.0 gw 192.168.0.1(添加网络路由)
+route add default gw 192.168.0.1(添加默认网关)
+route del -net 192.168.1.0 netmask 255.255.255.0(删除网络路由)
+    

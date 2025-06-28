@@ -1,0 +1,6 @@
+netstat -tulpn(显示所有监听的TCP和UDP端口及相关进程)
+netstat -an(显示所有连接，不解析名称)
+netstat -t(显示TCP连接)
+netstat -s(显示网络统计信息)
+netstat -r(显示路由表)
+    

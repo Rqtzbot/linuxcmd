@@ -1,0 +1,6 @@
+wget http://example.com/file.zip(下载文件)
+wget -O output.txt http://example.com(下载并保存为指定文件名)
+wget -P /tmp http://example.com/file.zip(下载到指定目录)
+wget -c http://example.com/big_file.zip(断点续传)
+wget -r -l 2 http://example.com(递归下载网站，深度为2)
+    

@@ -1,0 +1,6 @@
+find /path -name 'example.txt'(查找指定文件)
+find /path -type d(查找目录)
+find /path -type d -name "1*" -exec touch {}/1.txt \;(查找1开头的目录并添加1.txt)
+find /path -size +100M(查找大于100MB的文件)
+find /path -exec rm {} \;(查找并删除文件)
+    

@@ -1,0 +1,4 @@
+cut -d: -f1 /etc/passwd(提取以:分隔的第一个字段)
+cut -c 1-5 file.txt(提取每行的第1到5个字符)
+cut -d, -f2-4 data.csv(提取以,分隔的第2到4个字段)
+    

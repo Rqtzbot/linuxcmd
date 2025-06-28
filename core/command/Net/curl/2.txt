@@ -1,0 +1,6 @@
+curl example.com(获取网页内容)
+curl -o output.txt example.com(下载内容到文件)
+curl -O http://example.com/file.zip(直接下载文件)
+curl -X POST -d 'key=value' example.com(发送POST请求)
+curl -H 'Content-Type: application/json' example.com(添加请求头)
+    

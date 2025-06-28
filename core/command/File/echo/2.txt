@@ -1,0 +1,7 @@
+echo "Hello"(输出文本)
+echo -n "No newline"(不换行输出)
+echo -e "Line1\nLine2"(解析转义字符)
+echo $VAR(输出变量值)
+echo "hello" >> file.txt(向文件追加)
+
+    

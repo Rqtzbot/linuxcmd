@@ -1,0 +1,6 @@
+ping example.com(测试与主机的连通性)
+ping -c 4 example.com(发送4个包后停止)
+ping -i 0.2 example.com(设置发送间隔为0.2秒)
+ping -s 1000 example.com(发送1000字节的包)
+ping -W 2 example.com(设置超时时间为2秒)
+    

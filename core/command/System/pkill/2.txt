@@ -1,0 +1,4 @@
+pkill process_name(终止进程)
+pkill -9 process_name(强制终止进程)
+pkill -u username(终止特定用户的进程)
+    

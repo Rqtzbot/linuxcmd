@@ -1,0 +1,5 @@
+dpkg -i package.deb(安装本地包)
+dpkg -r package(移除包)
+dpkg -P package(彻底移除包)
+dpkg -l | grep package(查找包)
+    

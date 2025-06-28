@@ -1,0 +1,4 @@
+unzip file.zip(解压文件)
+unzip -l file.zip(查看压缩包内容)
+unzip -d directory file.zip(解压到指定目录)
+    

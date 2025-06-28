@@ -1,0 +1,5 @@
+sort file.txt(按字母顺序排序文件)
+sort -n numbers.txt(按数字大小排序)
+sort -r file.txt(逆序排序)
+sort -k 2 -t, data.csv(按逗号分隔的第二列排序)
+    

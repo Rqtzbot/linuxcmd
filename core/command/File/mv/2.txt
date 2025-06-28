@@ -1,0 +1,4 @@
+mv file.txt newfile.txt(重命名文件)
+mv file.txt dir/(移动文件到目录)
+mv -i old.txt new.txt(交互式移动)
+    

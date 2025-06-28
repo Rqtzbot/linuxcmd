@@ -1,0 +1,6 @@
+grep 'pattern' example.txt(在文件中查找模式)
+grep -i 'pattern' example.txt(忽略大小写查找)
+grep -r 'pattern' /directory(递归查找目录)
+grep -n 'pattern' example.txt(显示匹配行号)
+grep -v 'pattern' example.txt(反向查找)
+    
