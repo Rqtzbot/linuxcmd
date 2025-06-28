@@ -77,6 +77,7 @@ lcmd
 ### 关于
 - [CSDN] https://blog.csdn.net/m0_75192474?spm=1010.2135.3001.5343
 - [GitHup] https://github.com/Rqtzbot
+- [Gitee] https://gitee.com/rqtzbot/linuxcmd
 ## 注意事项
 - [放置位置] 应该将下载的linuxcmd包放在您的主目录中
 - [系统支持] 目前只在ubuntu系统上测试使用过
