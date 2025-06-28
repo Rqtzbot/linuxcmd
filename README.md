@@ -5,7 +5,7 @@
 ## 目录
 - [Linux命令学习快捷脚本](#linux命令学习快捷脚本)
   - [仓库介绍](#仓库介绍)
-  - [目录](#目录)
+  - [#仓库结构](#仓库结构)
   - [安装配置](#安装配置)
   - [使用方法](#使用方法)
     - [查询linux命令用法](#查询linux命令用法)
@@ -13,6 +13,36 @@
     - [关于](#关于)
   - [注意事项](#注意事项)
   - [联系](#联系)
+# 仓库结构
+```
+├── configure.sh  #脚本的配置文件
+ ├── core          #核心文件
+ │   ├── bash      
+ │   │   ├── File.sh #外部文件函数
+ │   │   ├── lcmd.sh #脚本执行文件
+ │   │   ├── Net.sh  #外部文件函数
+ │   │   ├── System.sh #外部文件函数
+ │   │   ├── Text.sh #外部文件函数
+ │   │   └── Zip.sh  #外部文件函数
+ │   └── command  #存储命令的txt文件
+ │       ├── File
+ │       ├── Net
+ │       ├── System
+ │       ├── Text
+ │       └── zip
+ ├── image   #图像文件
+ │   ├── 2025-06-27-21-31-51.png
+ │   ├── 2025-06-27-21-34-06.png
+ │   ├── 2025-06-28_12-19.png
+ │   ├── 2025-06-28_12-45.png
+ │   ├── 3.png
+ │   ├── 5.png
+ │   ├── 7.png
+ │   ├── 9.png
+ │   └── 图片.png
+ ├── README.md #仓库介绍
+ └── update.sh #更新文件
+```
 ## 安装配置
 首先需要安装git
 ```shell
@@ -35,7 +65,9 @@ sudo chmod +x configure.sh
 ```shell
 lcmd
 ``` 
-![输入图片说明](image/2025-06-28_12-45.png)
+![输入图片说明](image/2025-06-28_12-45.png)  
+![输入图片说明](image/%E5%B1%8F%E5%B9%95%E5%BD%95%E5%83%8F%202025-06-28%2017_45_52.gif)
+
 
 ## 使用方法
 按ctrl+c可以快捷返回上一级，在最高级选择**退出**即可关闭程序
@@ -76,7 +108,7 @@ lcmd
 ![输入图片说明](image/2025-06-28_12-19.png)
 ### 关于
 - [CSDN] https://blog.csdn.net/m0_75192474?spm=1010.2135.3001.5343
-- [GitHup] https://github.com/Rqtzbot
+- [GitHup] https://github.com/Rqtzbot/linuxcmd
 - [Gitee] https://gitee.com/rqtzbot/linuxcmd
 ## 注意事项
 - [放置位置] 应该将下载的linuxcmd包放在您的主目录中
