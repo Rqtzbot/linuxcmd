@@ -76,7 +76,7 @@ lcmd
 ![输入图片说明](image/2025-06-28_12-19.png)
 ### 关于
 - [CSDN] https://blog.csdn.net/m0_75192474?spm=1010.2135.3001.5343
-- [githup] https://github.com/Rqtzbot
+- [GitHup] https://github.com/Rqtzbot
 ## 注意事项
 - [放置位置] 应该将下载的linuxcmd包放在您的主目录中
 - [系统支持] 目前只在ubuntu系统上测试使用过
